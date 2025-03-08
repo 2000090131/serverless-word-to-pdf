@@ -1,0 +1,27 @@
+# Ignore build output
+/build/
+/out/
+/target/
+
+# Ignore dependency directories
+/.gradle/
+/.mvn/
+**/node_modules/
+
+# AWS Credentials (DO NOT COMMIT)
+*.pem
+.aws/
+
+# Logs & temporary files
+*.log
+*.tmp
+*.swp
+
+# IntelliJ, Eclipse, VSCode settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
